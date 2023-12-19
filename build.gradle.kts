@@ -29,6 +29,9 @@ configure<JavaPluginExtension> {
 }
 
 dependencies {
+    implementation("com.google.guava:guava:32.1.3-jre")
+    implementation("io.opentelemetry:opentelemetry-api:1.33.0")
+    implementation("org.apache.commons:commons-lang3:3.14.0")
     implementation("org.jetbrains:annotations:24.1.0")
     implementation("org.junit.jupiter:junit-jupiter-api:5.10.1")
 
